@@ -1,0 +1,28 @@
+@import url('../../index.css');
+
+[data-page="home"] {
+    height: 100vh;
+    width: 100vw;
+    color: var(--color-white);
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+[data-page="home"] > div {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+[data-page="home"]> div > img {
+    height: 300px;
+    aspect-ratio: 1/1;
+}
+[data-page="home"] > div .buttons{
+    display: inline-flex;
+    gap: 15px;
+}
+

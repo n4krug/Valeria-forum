@@ -1,0 +1,20 @@
+@import url('../../index.css');
+
+[data-page="forum"] {
+    height: 400vh;
+}
+
+[data-page="home"] > div {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+[data-page="home"]> div > img {
+    height: 300px;
+    aspect-ratio: 1/1;
+}
+[data-page="home"] > div .buttons{
+    display: inline-flex;
+    gap: 15px;
+}
